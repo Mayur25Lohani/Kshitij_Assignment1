@@ -476,6 +476,9 @@ ul li a:hover{
     height: 10%;
     font-size: 0.7em;
   }
+  .info button{
+    width: 70%;
+  }
 }
 
 @media (max-width: 757px) {
@@ -545,16 +548,19 @@ ul li a:hover{
   }
 }
 @media (max-width: 478px) {
+  *{
+    width: 100%;
+  }
   nav{
-    height: 22%;
-    font-size: 1rem;
+    height: 25%;
+    font-size: 0.65rem;
   }
   .info{
     width: 100%;
     margin-left: 10px;
   }
   .info .h5{
-    margin-top: 95px;
+    margin-top: 106px;
   }
   .info .h2{
     font-size: 25px;
@@ -565,25 +571,72 @@ ul li a:hover{
     margin-top: -44px;
   }
   .info button{
-    width: 60%;
+    width: 85%;
   }
   .container1{
+    width: 100%;
     flex-direction: column;
+  }
+  .title_btn{
+    flex-direction: column;
+  }
+  .title_btn button {
+    width: 90%;
+    margin-left: 14px;
   }
   .title{
     font-size: 16px;
+    margin-left: 35px;
   }
   .desc{
     font-size: 16px;
   }
+  .price_discount{
+    margin-left: 18px;
+  }
   .cards{
     width: 100%;
     align-items: center;
-    height: 50rem;
+    height: 55rem;
   }
   .searching{
     width: 80%;
     margin-left: 18%;
+  }
+  .Feedback .input-box input{
+    width: 90%;
+  }
+  .Feedback .input-box textarea{
+    width: 90%;
+  }
+  .footer{
+    width: 100%;
+    margin-right: 0;
+    flex-direction: row;
+    padding: 30px;
+  }
+  .footer-col1{
+    width: 50%;
+  }
+  .footer-col2{
+    width: 50%;
+  }
+  .footer-col3{
+    width: 50%;
+  }
+  .footer-col4{
+    width: 50%;
+  }
+  #button1{
+    width: 80%;
+  }
+  #button2{
+    width: 100%;
+  }
+}
+@media (max-width: 377px) {
+  .info .h5{
+    margin-top: 145px;
   }
   .footer{
     width: 100%;
@@ -600,16 +653,11 @@ ul li a:hover{
   .footer-col4{
     width: 100%;
   }
-  #button1{
-    width: 80%;
+  .Feedback .input-box input{
+    width: 90%;
   }
-  #button2{
-    width: 100%;
-  }
-}
-@media (max-width: 377px) {
-  .info .h5{
-    margin-top: 145px;
+  .Feedback .input-box textarea{
+    width: 90%;
   }
 }
 
